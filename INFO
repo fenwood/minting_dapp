@@ -1,0 +1,16 @@
+# First
+public/config/images -> replace background, gif and logo
+public/config/theme -> change colors for text
+public/config/config.json -> replace with contract address, pricing and etherscan/opensea urls
+-> use eth-converter.com to convert Ether amount to Wei (per nft) (10000000000000000 for .01, 35000000000000000 for .035)
+-> input this number into config.json WEI_COST
+public/config/abi.json -> get this from remix compiler, copy ABI
+public/index.html -> for title
+public/manifest.json -> update name/symbol
+App.js - set increment max amount to match max mint amount
+	* Note need to change 'mint' in line 133 to 'preSaleBuy'
+	*** Better solution is to change contract to have mint call either buy or presale buy depending on what is live
+
+
+### Need to change contract
+
