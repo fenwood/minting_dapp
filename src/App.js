@@ -406,7 +406,7 @@ function App() {
           </s.TextDescription>
           <s.TextSubTitle>
             For more information please visit{" "}
-            <StyledLink target="_" href="www.io.yo">
+            <StyledLink target="_" href="https://www.sonicvapeclub.com">
               www.sonicvapeclub.com
             </StyledLink>
           </s.TextSubTitle>
