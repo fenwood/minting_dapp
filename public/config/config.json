@@ -9,9 +9,9 @@
   "NFT_NAME": "Rich Mad Mike NFT",
   "SYMBOL": "RMM",
   "MAX_SUPPLY": 50,
-  "WEI_COST": 10000000000000000,
-  "DISPLAY_COST": 0.01,
-  "GAS_LIMIT": 285000,
+  "WEI_COST": 35000000000000000,
+  "DISPLAY_COST": 0.035,
+  "GAS_LIMIT": 585000,
   "MARKETPLACE": "Opeansea",
   "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/richmadmike",
   "SHOW_BACKGROUND": true
