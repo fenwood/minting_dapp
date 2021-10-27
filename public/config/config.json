@@ -8,7 +8,7 @@
   },
   "NFT_NAME": "The Stick Up Kids",
   "SYMBOL": "SUK",
-  "MAX_SUPPLY": 50,
+  "MAX_SUPPLY": 10000,
   "WEI_COST": 10000000000000000,
   "DISPLAY_COST": 0.01,
   "GAS_LIMIT": 585000,
