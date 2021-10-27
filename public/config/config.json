@@ -1,18 +1,18 @@
 {
-  "CONTRACT_ADDRESS": "0xF7Af893e1d8465B85477088db1607feDe9D22858",
-  "SCAN_LINK": "https://rinkeby.etherscan.io/token/0xF7Af893e1d8465B85477088db1607feDe9D22858",
+  "CONTRACT_ADDRESS": "0xBfefeBCB6c65dF0C6C216900682CA5de79C04BDC",
+  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0xBfefeBCB6c65dF0C6C216900682CA5de79C04BDC",
   "NETWORK": {
     "NAME": "Ether",
     "SYMBOL": "ETH",
     "ID": 4
   },
-  "NFT_NAME": "Rich Mad Mike NFT",
-  "SYMBOL": "RMM",
+  "NFT_NAME": "The Stick Up Kids",
+  "SYMBOL": "SUK",
   "MAX_SUPPLY": 50,
-  "WEI_COST": 35000000000000000,
-  "DISPLAY_COST": 0.035,
+  "WEI_COST": 10000000000000000,
+  "DISPLAY_COST": 0.01,
   "GAS_LIMIT": 585000,
   "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/richmadmike",
+  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/crazyrewards",
   "SHOW_BACKGROUND": true
 }

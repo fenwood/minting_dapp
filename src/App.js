@@ -205,7 +205,10 @@ function App() {
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
-            <StyledImg alt={"example"} src={"/config/images/example.gif"} />
+            <StyledImg
+              alt={"Stick Up Kids"}
+              src={"/config/images/animated_mix_20f.gif"}
+            />
           </s.Container>
           <s.SpacerLarge />
           <s.Container
@@ -279,7 +282,7 @@ function App() {
                     <s.TextDescription
                       style={{
                         textAlign: "center",
-                        color: "var(--accent-text)",
+                        color: "var(--accent-text-red)",
                       }}
                     >
                       Connect to the {CONFIG.NETWORK.NAME} network
@@ -291,8 +294,9 @@ function App() {
                         dispatch(connect());
                         getData();
                       }}
+                      disabled={true}
                     >
-                      CONNECT
+                      COMING SOON
                     </StyledButton>
                     {blockchain.errorMsg !== "" ? (
                       <>
@@ -370,28 +374,9 @@ function App() {
             <s.SpacerMedium />
           </s.Container>
           <s.SpacerLarge />
-          <s.Container flex={1} jc={"center"} ai={"center"}>
-            <StyledImg
-              alt={"example"}
-              src={"/config/images/example.gif"}
-              style={{ transform: "scaleX(-1)" }}
-            />
-          </s.Container>
         </ResponsiveWrapper>
         <s.SpacerMedium />
         <s.Container jc={"center"} ai={"center"} style={{ width: "70%" }}>
-          <s.TextDescription
-            style={{
-              textAlign: "left",
-              color: "var(--primary-text)",
-            }}
-          >
-            Please make sure you are connected to the
-            {CONFIG.NETWORK.NAME} Mainnet. We have set the gas limit to{" "}
-            {CONFIG.GAS_LIMIT} for the contract to successfully mint your NFT.
-            We recommend that you don't lower the gas limit. Please note: Once
-            you make the purchase, you cannot undo this action.
-          </s.TextDescription>
           <s.SpacerSmall />
           <s.TextDescription
             style={{
@@ -400,9 +385,11 @@ function App() {
             }}
           >
             The Stick Up Kids is an NFT collection brought to you by the Sonic
-            Vape Club. Ever 1000 mints we give a random hodler 10% of the
-            proceeeds. All stick up kid hodlers will be granted access to the
-            New Amsterdam Metaverse when it is released.
+            Vape Club. Ever 1,000 mints we give a random hodler 10% of the
+            proceeeds and 10% will be donated to charity. All stick up kid
+            hodlers will be granted access to the New Amsterdam Metaverse when
+            it is released. Please note: Once you make the purchase, you cannot
+            undo this action.
           </s.TextDescription>
           <s.TextSubTitle>
             For more information please visit{" "}

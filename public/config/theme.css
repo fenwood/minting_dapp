@@ -4,5 +4,6 @@
   --secondary: #3f1dff;
   --secondary-text: #ffffff;
   --accent: #000;
-  --accent-text: #006633;
+  --accent-text: #fff;
+  --accent-text-red: #ff0000;
 }
