@@ -125,7 +125,16 @@ function App() {
     let gasLimit = CONFIG.GAS_LIMIT;
     let totalCostWei = String(cost * mintAmount);
     let totalGasLimit = String(gasLimit * mintAmount);
-    console.log("Cost: ", totalCostWei);
+    // const data = useSelector((state) => state.data);
+    let calculatedWEICost =
+      data.totalSupply < 126
+        ? CONFIG.WEI_COST
+        : data.totalSupply < 1126
+        ? CONFIG.WEI_COST * 2
+        : CONFIG.WEI_COST * 4.5;
+    let totalCalculatedCostWei = String(calculatedWEICost * mintAmount);
+
+    console.log("Cost: ", totalCalculatedCostWei);
     console.log("Gas limit: ", totalGasLimit);
     setFeedback(`Minting your ${CONFIG.NFT_NAME}...`);
     setClaimingNft(true);
@@ -135,7 +144,7 @@ function App() {
         gasLimit: String(totalGasLimit),
         to: CONFIG.CONTRACT_ADDRESS,
         from: blockchain.account,
-        value: totalCostWei,
+        value: totalCalculatedCostWei,
       })
       .once("error", (err) => {
         console.log(err);
@@ -294,9 +303,9 @@ function App() {
                         dispatch(connect());
                         getData();
                       }}
-                      disabled={true}
+                      disabled={false}
                     >
-                      COMING SOON
+                      CONNECT
                     </StyledButton>
                     {blockchain.errorMsg !== "" ? (
                       <>

@@ -1,18 +1,18 @@
 {
-  "CONTRACT_ADDRESS": "0xBfefeBCB6c65dF0C6C216900682CA5de79C04BDC",
-  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0xBfefeBCB6c65dF0C6C216900682CA5de79C04BDC",
+  "CONTRACT_ADDRESS": "0x3469791488094946D6aAd4497A12245e036D6A87",
+  "SCAN_LINK": "https://polygonscan.com/address/0x3469791488094946D6aAd4497A12245e036D6A87",
   "NETWORK": {
-    "NAME": "Ether",
-    "SYMBOL": "ETH",
-    "ID": 4
+    "NAME": "Polygon",
+    "SYMBOL": "MATIC",
+    "ID": 137
   },
-  "NFT_NAME": "The Stick Up Kids",
+  "NFT_NAME": "Stick Up Kids",
   "SYMBOL": "SUK",
   "MAX_SUPPLY": 10000,
-  "WEI_COST": 10000000000000000,
-  "DISPLAY_COST": 0.01,
+  "WEI_COST": 10000000000000000000,
+  "DISPLAY_COST": 10,
   "GAS_LIMIT": 585000,
   "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/crazyrewards",
+  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/stickupkids",
   "SHOW_BACKGROUND": true
 }
